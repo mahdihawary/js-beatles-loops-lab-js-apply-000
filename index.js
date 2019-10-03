@@ -1,7 +1,7 @@
 // add solution here
  
 function theBeatlesPlay(musicians,instruments){
-  var beatles=[]
+  var beatles=[];
   for(var x=0;x<musicians.length;x++ ){
     beatles.push(musicians[x] + " plays " + instruments[x])
   }
@@ -9,11 +9,10 @@ function theBeatlesPlay(musicians,instruments){
 }
 
 function iLoveTheBeatles(n){
-  var love=[]
-  
+  var love=[];
   do{
     love.push("I love the Beatles!")
-    n++
+    n++;
   }
   while(n<15)
 }
